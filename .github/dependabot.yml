@@ -20,8 +20,8 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: "*"
+      update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
@@ -32,8 +32,8 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: "*"
+      update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
@@ -44,8 +44,8 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: "*"
+      update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
@@ -56,8 +56,8 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: "*"
+      update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
@@ -68,8 +68,8 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: "*"
+      update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects  
   - package-ecosystem: "github-actions"
@@ -80,10 +80,10 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: "*"
+      update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
-        # Maintain dependencies for .NET projects   
+  # Maintain dependencies for .NET projects   
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions"
     on:
@@ -92,7 +92,6 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
-    reviewers:
-      ["borisdj"]
+      - dependency-name: "*"
+      update-types: ["version-update:semver-major"]
+    reviewers: ["borisdj"]
