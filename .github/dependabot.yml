@@ -8,13 +8,15 @@ updates:
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
+    paths-ignore: "/EFCore.BulkExtensions.Net8.sln"
     schedule:
       interval: "monthly"
     reviewers:
       - "borisdj"
-  # Maintain dependencies for .NET projects (EFCore.BulkExtensions.Core)
+  # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.Core"
+    paths-ignore: "/EFCore.BulkExtensions.Core/EFCore.BulkExtensions.Core.Net8.csproj"
     schedule:
       interval: "monthly"
     ignore:
@@ -22,9 +24,10 @@ updates:
         update-types: ["version-update:semver-major"]
     reviewers:
       - "borisdj"
-  # Maintain dependencies for .NET projects (EFCore.BulkExtensions)
+  # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.SqlServer"
+    paths-ignore: "/EFCore.BulkExtensions.SqlServer/EFCore.BulkExtensions.SqlServer.Net8.csproj"
     schedule:
       interval: "monthly"
     ignore:
@@ -32,9 +35,10 @@ updates:
         update-types: ["version-update:semver-major"]
     reviewers:
       - "borisdj"
-  # Maintain dependencies for .NET projects (EFCore.BulkExtensions .Net8)
+  # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.PostgreSql"
+    paths-ignore: "/EFCore.BulkExtensions.PostgreSql/EFCore.BulkExtensions.PostgreSql.Net8.csproj"
     schedule:
       interval: "monthly"
     ignore:
@@ -42,9 +46,10 @@ updates:
         update-types: ["version-update:semver-major"]
     reviewers:
       - "borisdj"
-  # Maintain dependencies for .NET projects (EFCore.BulkExtensions .Net8) 
+  # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.MySql"
+    paths-ignore: "/EFCore.BulkExtensions.MySql/EFCore.BulkExtensions.MySql.Net8.csproj"
     schedule:
       interval: "monthly"
     ignore:
@@ -53,9 +58,10 @@ updates:
     reviewers:
       - "borisdj"
             - "borisdj"
-  # Maintain dependencies for .NET projects (EFCore.BulkExtensions .Net8)         
+  # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.Oracle"
+    paths-ignore: "/EFCore.BulkExtensions.Oracle/EFCore.BulkExtensions.Oracle.Net8.csproj"
     schedule:
       interval: "monthly"
     ignore:
@@ -63,9 +69,10 @@ updates:
         update-types: ["version-update:semver-major"]
     reviewers:
       - "borisdj"
-  # Maintain dependencies for .NET projects (EFCore.BulkExtensions .Net8)         
+  # Maintain dependencies for .NET projects  
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.Sqlite"
+    paths-ignore: "/EFCore.BulkExtensions.Sqlite/EFCore.BulkExtensions.Sqlite.Net8.csproj"
     schedule:
       interval: "monthly"
     ignore:
@@ -73,9 +80,10 @@ updates:
         update-types: ["version-update:semver-major"]
     reviewers:
       - "borisdj"
-        # Maintain dependencies for .NET projects (EFCore.BulkExtensions .Net8)         
+        # Maintain dependencies for .NET projects   
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions"
+    paths-ignore: "/EFCore.BulkExtensions/EFCore.BulkExtensions.Net8.csproj"
     schedule:
       interval: "monthly"
     ignore:
