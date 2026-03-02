@@ -11,7 +11,7 @@ updates:
     schedule:
       interval: "monthly"
     reviewers:
-      - "borisdj"
+      "borisdj"
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.Core"
@@ -19,10 +19,10 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
+        dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers:
-      - "borisdj"
+      "borisdj"
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.SqlServer"
@@ -30,10 +30,10 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
+        dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers:
-      - "borisdj"
+      "borisdj"
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.PostgreSql"
@@ -41,10 +41,10 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
+        dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers:
-      - "borisdj"
+      "borisdj"
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.MySql"
@@ -52,11 +52,11 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
+        dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers:
-      - "borisdj"
-            - "borisdj"
+      "borisdj"
+            "borisdj"
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.Oracle"
@@ -64,10 +64,10 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
+        dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers:
-      - "borisdj"
+      "borisdj"
   # Maintain dependencies for .NET projects  
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.Sqlite"
@@ -75,10 +75,10 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
+        dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers:
-      - "borisdj"
+      "borisdj"
         # Maintain dependencies for .NET projects   
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions"
@@ -86,7 +86,7 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        - dependency-name: "*"
+        dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers:
-      - "borisdj"
+      "borisdj"
