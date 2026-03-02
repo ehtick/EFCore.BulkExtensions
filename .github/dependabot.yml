@@ -8,7 +8,6 @@ updates:
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
-    paths-ignore: "/EFCore.BulkExtensions.Net8.sln"
     schedule:
       interval: "monthly"
     reviewers:
