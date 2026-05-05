@@ -3,7 +3,7 @@ EntityFrameworkCore extensions that offer enterprise-grade performance boost - i
 -Bulk operations (super fast, en masse DB Protocol): **Insert, Update, Delete, Read, Upsert, Sync, SaveChanges.**  
 -Batch ops (chunk-oriented processing): **Update, Delete** - Deprecated from EF8 (v7+ has native Execute-Up/Del).  
 -AddOp (additional improvement): **Truncate.**  
-Library is Lightweight and very Efficient (warp speed), having all mostly used [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operation.  
+Library is Lightweight and very Efficient (warp speed), having all mostly used [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) methods.  
 Was selected in top 10 [EF Core Extensions](https://docs.microsoft.com/en-us/ef/core/extensions/) recommended by *Microsoft*.  
 Latest version is using EF Core 10.  
 Supports all 5 major sql databases: **SQLServer, PostgreSQL, MySQL, Oracle, SQLite.**    
