@@ -80,7 +80,7 @@ Its assembly is [Strong-Named](https://docs.microsoft.com/en-us/dotnet/standard/
 | 1.x   | NetStandard 1.4 | EF Core 1 | NetCore(1.0+)                   |
 
 Supports follows official [.Net lifecycle](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core), currently v.10 as latest(LTS) and v.9.  
-At the moment *ONLY* **SqlServer** and **Sqlite** are published as 10.0.0.-rc.2 since other providers not yet updated to v10.  
+MySql nuget is still and v.9 as their provider is not yet updated to EF 10.  
 
 ## Usage
 It's pretty simple and straightforward.  
